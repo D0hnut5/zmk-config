@@ -1,2 +1,2 @@
-config SHEILD_WAKA
+config SHIELD_WAKA
 	def_bool $(shields_list_contains,waka)
