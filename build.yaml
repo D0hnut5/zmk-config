@@ -14,7 +14,7 @@
 ---
 include:
   - board: pillbug
-    shield: bb40
+    shield: BB40
 
-  - board: pillbug
-    shield: waka
+#  - board: pillbug
+#    shield: waka
