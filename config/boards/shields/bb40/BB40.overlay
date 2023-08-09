@@ -56,8 +56,8 @@
         label = "Encoder 1";
         a-gpios = <&blackpill 39 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         b-gpios = <&blackpill 40 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        steps = <40>;
-        status = "disabled";
+        steps = <80>;
+        status = "okay";
     };
 
 };
