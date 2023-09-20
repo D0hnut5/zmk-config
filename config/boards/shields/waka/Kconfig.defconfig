@@ -1,6 +1,12 @@
 if SHIELD_WAKA
 
 config ZMK_KEYBOARD_NAME
-	default "waka"
-	
+	default "Waka"
+
+config ZMK_RGB_UNDERGLOW
+    depends on ZMK_BOARD_PILLBUG
+
+config ZMK_SLEEP
+    depends on ZMK_BOARD_PILLBUG
+
 endif
