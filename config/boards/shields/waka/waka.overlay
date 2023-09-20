@@ -14,7 +14,6 @@
 
     default_scan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
         diode-direction = "col2row";
         row-gpios
             = <&blackpill 45 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* B8 */
