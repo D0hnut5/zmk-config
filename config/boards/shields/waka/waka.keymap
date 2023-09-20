@@ -10,14 +10,15 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
-&encoder_1 {
+&encoder {
     status = "okay";
 };
 
 / {
     sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&encoder_1>;
+        sensors = <&encoder>;
+        triggers-per-rotation = <20>;
     };
 
     keymap {

@@ -51,12 +51,12 @@
         >;
     };
 
-    encoder_1: encoder_1 {
+    encoder: encoder {
         compatible = "alps,ec11";
-        label = "Encoder 1";
+        label = "Encoder";
         a-gpios = <&blackpill 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         b-gpios = <&blackpill 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        resolution = <1>;
-        status = "okay";
+        steps = <80>;
+        status = "disabled";
     };
 };
