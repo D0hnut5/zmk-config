@@ -1,6 +1,0 @@
-if SHIELD_WAKA
-
-config ZMK_KEYBOARD_NAME
-	default "waka"
-	
-endif
