@@ -42,7 +42,7 @@
             layers = <0>;
             bindings = <&kp CAPS>;
         };
-        combo_caps {
+        combo_caps1 {
             timeout-ms = <50>;
             key-positions = <29 32>;
             layers = <0>;
