@@ -10,11 +10,6 @@
 
 // #include <dt-bindings/zmk/rgb.h>
 
-#define DEFAULT 0
-#define NUM     1
-#define NAV     2
-#define FUN     3
-
 &encoder {
     status = "okay";
 };
@@ -53,10 +48,8 @@
             bindings = <&kp CAPS>;
         };
     };
-
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
             // layer 0 ----------------------------------------------------------------------------------------------------------------------------
             // |   ESC   |    1    |    2    |    3    |    4    |    5    |---------|    6    |    7    |    8    |    9    |    0    |  DELETE |
@@ -111,7 +104,7 @@
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
- fun_layer {
+        fun_layer {
             // layer 3 ----------------------------------------------------------------------------------------------------------------------------
             // |  BT 0   |  BT 1   |  BT 2   |  BT 3   |  BT 4   |         |---------|  FLASH  |         |         |         |         |         |
             // | BT Clr  |         |         |         |         |         |---------|         |         |         |         |         |         |
