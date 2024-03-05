@@ -52,7 +52,7 @@
             layers = <0>;
             bindings = <&kp CAPS>;
    };
-
+};
 / {
 
     keymap {
