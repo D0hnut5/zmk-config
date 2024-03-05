@@ -30,6 +30,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <220>;
             require-prior-idle-ms = <125>;
+            retro-tap;
             bindings = <&kp>, <&kp>;
         };
         combos {
