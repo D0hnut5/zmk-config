@@ -1,8 +1,8 @@
-/*
-  * Copyright (c) 2020 The ZMK Contributors
-  *
-  * SPDX-License-Identifier: MIT
-  */
+//*
+//  * Copyright (c) 2020 The ZMK Contributors
+//  *
+//  * SPDX-License-Identifier: MIT
+//  */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -62,6 +62,7 @@
                  key-positions = <28 31>;
                  layers = <0>;
                  bindings = <&kp CAPS>;
+             };
         };
     };
 
