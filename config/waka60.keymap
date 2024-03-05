@@ -51,8 +51,10 @@
             key-positions = <29 32>;
             layers = <0>;
             bindings = <&kp CAPS>;
-   };
+        };
+    };
 };
+
 / {
 
     keymap {
